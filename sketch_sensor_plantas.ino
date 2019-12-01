@@ -9,7 +9,10 @@ int pinLed = 13;
 int pinLed_green = 7;
 //Fio conectado à porta analógica 0 à protoboard para conexão com um dos pregos do sensor
 //Entre este fio e o fio ligado ao prego há um resisotr de 10ohms
-//No outro do resistor é colocado outro fio conectado ao GND do Arduino
+//No outro lado do resistor é colocado outro fio conectado ao GND do Arduino
+//O ouro prego do sensor, é conectado à protoboard e da conexão com este é feita a ligação
+//de outro fio à saída 5v do Arduino.
+
 int pinSensor = 0;
 
 //Variável para registrar o valor lido pelo sensor
